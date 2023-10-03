@@ -4,9 +4,6 @@
 variable "owner" {
   type        = list(string)
   description = "Owner ID of the AWS account. Used for accessing the proper custom AMIs, etc."
-  default = [
-    "666800276840",
-  ]
 }
 
 variable "environment" {
